@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Chopa</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="../css/items.css">
+  </head>
+  <body>
+    <div class = "wrapper">
+        <div class="nav">
+            <a href="./index.html"><img src="../img/main/image 1.png" alt="logo" class="nav__logo"></a>
+            <div class="nav__buttons">
+                <a href="./gero.html" class="nav__button">Герои</a>
+                <a href="./items.html" class="nav__button">Предметы</a>
+                <a href="./guide.html" class="nav__button">Гайды</a>
+                <a href="./monster.html" class="nav__button">Монстры</a>
+                <a href="./skill.html" class="nav__button">Доп. Умения</a>
+                <a href="./history.html" class="nav__button">История</a>
+            </div>
+        </div>
+        <div class="title">
+          <h1>Вещи которые важно знать</h1>
+          <p>Вы можете купить несколько одинаковых предметов, но суммироваться будут только характеристики. Уникальные эффекты и уникальные характеристики стакаться не будут</p>
+          <p>Существует ограничение на уменьшение перезарядки скиллов, которое составляет 40%, но с помощью некоторых предметов можно этот кап увеличить</p>
+          <p>Скорость атаки ограничена 3,00 атаками в секунду; если она превысит этот предел, она останется на уровне 3,00 атак в секунду.</p>
+          <p>Нет смысла копить на улучшенную версию предмета, вы должны начать покупать предметы 1-го уровня, как только у вас будет достаточно золота</p>
+          <p>Бонусные атрибуты увеличивают атрибуты героя. Этот эффект может накапливаться, когда один и тот же предмет покупается несколько раз.
+            Уникальные атрибуты увеличивают атрибуты героя. При многократной покупке этот эффект действует только по одному эффекту за единицу снаряжения.</p>
+          <p>Уникальные пассивные способности всегда активны, пока на герое надето снаряжение, аналогично пассивному умению героя.</p>
+          <p>Уникальные-активные способности аналогичны навыкам героя. Они активируются нажатием на значок снаряжения рядом со навыками героя. Как и у навыков героя, у них есть время восстановления. После активации время восстановления истекает, и их нельзя активировать снова, пока не истечет таймер.</p>
+          <p>В течение первых 15 секунд боя при продаже снаряжения возвращается 100% золота; через 15 секунд при продаже снаряжения, которое не является обувью, возвращается 60% золота; а при продаже обуви возвращается 20% золота.</p>
+        </div>
+        <h1>Предметы</h1>
+        <div class="items">
+          <h2>Физ. атака</h2>
+          <div class="items__more-info invisible" id="items__more-info">
+            <div class="more-info__name" id="more-info__name"></div>
+            <div class="more-info__property">
+              <p class="title">Характеристики</p>
+              <p id="more-info__property-p"></p>
+            </div>
+            <div class="skill">
+              <p class="title">Уникальные</p>
+              <p id="skill-p"></p>
+            </div>
+          </div>
+          <div class="items__wrapper">
+            <div class="items__card-item" name="Trident">
+              <img src="../img/items/трезубец.png" alt="">
+              <div class="card-item__name">Трезубец</div>
+              <div class="card-item__cost">2050</div>
+            </div>
+            <div class="items__card-item" name="roar">
+              <img src="../img/items/злобный рык.png" alt="">
+              <div class="card-item__name">Злобный рык</div>
+              <div class="card-item__cost">2060</div>
+            </div>
+            <div class="items__card-item" name="hunter">
+              <img src="../img/items/Меч охотника на демонов.png" alt="">
+              <div class="card-item__name">Охотник на демонов</div>
+              <div class="card-item__cost">2180</div>
+            </div>
+          </div>
+          <h2>Магия</h2>
+          <div class="items__wrapper">
+            <div class="items__card-item" name="rod">
+              <img src="../img/items/image 40пылай.png" alt="">
+              <div class="card-item__name">Пылающий желз</div>
+              <div class="card-item__cost">1950</div>
+            </div>
+            <div class="items__card-item" name="godly">
+              <img src="../img/items/image 40бож.png" alt="">
+              <div class="card-item__name">Божеств-<br/>енный меч</div>
+              <div class="card-item__cost">1970</div>
+            </div>
+            <div class="items__card-item" name="crystal">
+              <img src="../img/items/image 40зел.png" alt="">
+              <div class="card-item__name">Священный кристалл</div>
+              <div class="card-item__cost">2180</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+  <script src="../js/items.js"></script>
+</html>

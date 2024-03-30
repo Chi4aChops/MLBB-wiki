@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>Chopa</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="../css/geroCard.css">
+  </head>
+  <body id="back">
+    <div class = "wrapper">
+        <div class="nav">
+            <a href="./index.html"><img src="../img/main/image 1.png" alt="logo" class="nav__logo"></a>
+            <div class="icon1">
+              <div class="arrow"></div>
+            </div>
+            <div class="nav__buttons">
+                <a href="./gero.html" class="nav__button">Герои</a>
+                <a href="./items.html" class="nav__button">Предметы</a>
+                <a href="./guide.html" class="nav__button">Гайды</a>
+                <a href="./monster.html" class="nav__button">Монстры</a>
+                <a href="./skill.html" class="nav__button">Доп. Умения</a>
+                <a href="./history.html" class="nav__button">История</a>
+            </div>
+        </div>
+        <h1 id="h1">Тигрил</h1>
+        <div class="wrapper-content">
+          <div class="skills">
+            <h2 class="skills__h2">Навыки</h2>
+            <div class="skills__wrapper">
+              <div name="0" class="skills__passive skills-card">
+                <img src="" alt="" id="skills__passive-img">
+                <p id="skill__passive-name"></p>
+              </div>
+              <div name="1" class="skills__first skills-card">
+                <img src="" alt="" id="skills__first-img">
+                <p id="skill__first-name"></p>
+              </div>
+              <div name="2" class="skills__second skills-card">
+                <img src="" alt="" id="skills__second-img">
+                <p id="skill__second-name"></p>
+              </div>
+              <div name="3" class="skills__third skills-card">
+                <img src="" alt="" id="skills__third-img">
+                <p id="skill__third-name"></p>
+              </div>
+            </div>
+            <div id="skill-more-info" class="skill__moreInfo invisible">
+              <h3>Описание</h3>
+              <p id="skill-about"></p>
+              <div id="more-info__mana"></div>
+              <div id="more-info__reload"></div>
+              <table class="invisible">
+                <tr><th></th><th>Ур.1</th><th>Ур.2</th><th>Ур.3</th><th>Ур.4</th><th>Ур.5</th><th>Ур.6</th></tr>
+                <tr><th id="table-title">Время перезарядки</th><td id="first-lvl-reload"></td><td id="second-lvl-reload"></td><td id="third-lvl-reload"></td><td id="fourth-lvl-reload"></td><td id="fifth-lvl-reload"></td><td id="sixth-lvl-reload"></td></tr>
+                <tr><th id="table-title"">Базовый урон</th><td id="first-lvl-damage"></td><td id="second-lvl-damage"></td><td id="third-lvl-damage"></td><td id="fourth-lvl-damage"></td><td id="fifth-lvl-damage"></td><td id="sixth-lvl-damage"></td></tr>
+              </table>
+            </div>
+          </div>
+          <div class="stat">
+            <h2>Характеристики</h2>
+            <div class="stat__container">
+              <div class="stat__wrapper">
+                <h4>Роль</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Специализ.</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Скор. движ.</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Здоровье</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Физ. атака</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Мана</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Маг. сила</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Скор. атаки</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Физ. защ</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Реген. ОЗ</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Маг. защ.</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+              <div class="stat__wrapper">
+                <h4>Реген. маны</h4>
+                <h5 class="info-stat"></h5>
+              </div>
+            </div>
+            <h2>Стоимость</h2>
+            <div class="cost__container">
+              <div class="BO">БО</div>
+              <div id="cost-BO"></div>
+            </div>
+            <div class="diamond__container">
+              <div class="BO">Алмазы</div>
+              <div id="cost-diamond"></div>
+            </div>
+            <h2>Гайды</h2>
+            <a id="vud" href="#">Видео-гайд от Вудского</a>
+            <a id="zver" href="#">Видео-гайд от Зверько</a>
+          </div> 
+          <div class="history">
+            <h2>История</h2>
+            <p id="history"></p>
+          </div>
+        </div>
+        <div class="icon" onclick="javascript:history.back(); return false;">
+          <img src="../img/back-svgrepo-com 1.png" alt="">
+        </div>
+    </div>
+  </body>
+  <script src="../js/gero.js"></script>
+</html>

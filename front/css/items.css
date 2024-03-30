@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@font-face {
+	font-family: 'Post No Bills Colombo';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/Post/postnobillscolombo-regular.ttf') format('ttf'),
+}
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+    background: linear-gradient(180deg, rgba(13, 22, 70, 1) 0%, rgba(120, 120, 120, 1) 46.72%, rgba(23, 29, 63, 1) 100%);
+    background-attachment: fixed;
+}
+.wrapper{
+    width: 1740px;
+    margin: 20 0 0 105;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.nav__logo{
+    width: 190px;
+    transition: 0.5s;
+    height: 60px;
+    transition: 0.5s;
+}
+.nav__logo:hover{
+    width: 205px;
+    height: 64px;
+    transition: 0.5s;
+    margin-bottom: -4px;
+}
+.nav__button{
+    margin-left: 40px;
+    font-family: 'Post No Bills Colombo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    background: linear-gradient(180deg, #80FF00 0%, rgba(249, 255, 250, 0.415385) 60%, #FEFFFE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: 0.5s;
+}
+.nav__button:hover{
+    font-size: 26px;
+    transition: 0.5s;
+}
+.nav__buttons{
+    display: flex;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #E4F8F5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(228, 248, 245, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Alegreya';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #EECC8B;
+    margin-bottom: 20px;
+}
+.title{
+    width: 985px;
+    margin-left: 300px;
+    margin-bottom: 70px;
+}
+.items img{
+    width: 115px;
+    height:115px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    transition: 0.5s;
+}
+.items{
+    margin-left: 300px;
+}
+.items__wrapper{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.items__card-item{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.items__card-item:hover{
+    margin-right: 40px;
+    transition: 0.5s;
+}
+
+.items__card-item:hover img{
+    width:125px;
+    height: 125px;
+    transition: 0.5s;
+}
+.items__card-item:hover .card-item__name{
+    font-size: 28px;
+    transition: 0.5s;
+    width: 140px;
+}
+.items__card-item:hover .card-item__cost{
+    font-size: 24px;
+    transition: 0.5s;
+    margin-bottom: -17px;
+}
+.card-item__name{
+    transition: 0.5s;
+    font-family: 'Alegreya';
+    font-weight: 400;
+    font-size: 26px;
+    color: rgba(228, 248, 245, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 5px;
+    width:130px;
+}
+.card-item__cost{
+    transition: 0.5s;
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #EECC8B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.items__more-info{
+    width:500px;
+    position: absolute;
+    left:1420px;
+    top:300px;
+    position: fixed;
+}
+.items__more-info p{
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #EECC8B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+.items__more-info p.title{
+    font-family: 'Alegreya';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(228, 248, 245, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.more-info__name{
+    margin-bottom: 10px;
+    font-family: 'Alegreya';
+    font-weight: 400;
+    color: rgba(228, 248, 245, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+}
+.more-info__property{
+    margin-bottom: 10px;
+}
+.invisible{
+    display: none;
+}
